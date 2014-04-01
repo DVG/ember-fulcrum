@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Repo</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each project in projects}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{repo}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
